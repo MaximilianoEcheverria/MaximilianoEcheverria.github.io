@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" type="text/css">
+        <link rel="stylesheet" href="./resouces/css/estilo.css" type="text/css">
+    </head>
+    <body>
+      <main>
+         <!--  SECIÓN DE INICIO -->
+      <section id="inicio">
+        <div class="contenido">
+          <header>
+            <div class="contenido-header">
+              <a class="logo">
+                <img class="logo-img" src="./resouces/img/codoacodo.png">Confi Bs As
+              </a>
+              <nav id="nav" class="">
+                <ul id="links">
+                  <li><a href="#inicio" class="seleccionado">La conferencia</a></li>
+                  <li><a href="#oradores" class="seleccionado">Los oradores</a></li>
+                  <li><a href="#lugar" class="seleccionado">El lugar y la fecha</a></li>
+                  <li><a href="#conviertete" class="seleccionado">Conviertete en orador</a></li>
+                  <li><a href="#inicio" class="seleccionado1">Comprar tickets</a></li>
+                </ul>
+              
+                <!--  ICONOS DEL MENU RESPONSIVE -->
+
+                <div id="icono-nav">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+              </nav>
+            </div>
+          </header>
+              <div class="presentacion">
+                <h2><strong>Conf Bs As</strong> </h2>
+                <p class="descripcion">Bs As llega por primera vez a Argentina. Un evento para compartir en nuestra comunidad 
+                  el conocimiento y experiencia de los expertos que están creando el futuro de internet. Ven a conocer a miembros 
+                  del evento, a otros estudiantes de Codo a Codo y los Oradores de primer nivel que tenemos para ti.
+                  Te esperamos!</p>
+                <div class="botones">
+                  <input class="boton1"  type="button" value="Quiero ser orador">
+                  <input class="boton2" type="button" value="Comprar tickets">
+                </div>
+              </div>
+        </div>
+      </section>
+
+      <!-- SECCION DE ORADORES-->
+      <section id="oradores">
+        <div class="contenido-titulo">
+          <h6>concoce a los</h6>
+          <h3><strong>ORADORES</strong></h3>
+        </div>
+        <div class="content">
+            <div class="card">
+              <img src="./resouces/img/steve.jpg" class="card-img-top" alt="Steve Jobs">
+              <div class="card-body">
+                <h6 class="javaScript"><strong>JavaScript</strong></h6>
+                <h6 class="react"><strong>React</strong></h6>
+                <h5 class="card-title"><strong>Steve Jobs</strong></h5>
+                <p>Fundó Apple en 1976 junto con un amigo de la adolescencia, Steve Wozniak, con ayuda 
+                  del excompañero de Jobs en Atari, Ronald Wayne, en el garaje de su casa. Aupado por el éxito del 
+                  Apple II, Jobs obtuvo una gran relevancia pública, siendo portada de Time en 1982.</p>
+              </div>
+            </div>
+            <div class="card">
+              <img src="./resouces/img/bill.jpg" class="card-img-top" alt="Bill Gates">
+              <div class="card-body">
+                <h6 class="javaScript"><strong>JavaScript</strong></h6>
+                <h6 class="react"><strong>React</strong></h6>
+                <h5 class="card-title"><strong>Bill Gates</strong></h5>
+                <p class="card-text">Es cofundador de Microsoft, junto con su difunto amigo de la infancia Paul Allen. Durante su 
+                  carrera en Microsoft, Gates ocupó los cargos de presidente, director ejecutivo (CEO), presidente y arquitecto 
+                  jefe de software, además de ser el mayor accionista individual hasta mayo de 2014.</p>
+              </div>
+            </div>
+            <div class="card">
+              <img src="./resouces/img/ada.jpeg" class="card-img-top" alt="Ada Lovelace">
+              <div class="card-body">
+                <h6 id="negocios"><strong>Negocios</strong></h6>
+                <h6 id="startups"><strong>Startups</strong></h6>
+                <h5 class="card-title"><strong>Ada Lovelace</strong></h5>
+                <p class="card-text">Matemática y escritora británica, célebre sobre todo por su trabajo acerca de
+                   la computadora mecánica de uso general de Charles Babbage.Fue la primera en reconocer que la máquina tenía 
+                   aplicaciones más allá del cálculo puro y en haber publicado lo que se reconoce hoy como el primer algoritmo destinado 
+                   a ser procesado por una máquina.</p>
+              </div>
+            </div>
+        </div>
+      </section>
+
+      <!-- SECCION DE LUGAR Y FECHA -->
+      <section id="lugar">
+        <div class="content-img">
+          <img class="img" src="./resouces/img/honolulu.jpg" alt="hawai">
+          <div class="img-descripcion">
+            <h5><strong>Ba As - Octubre</strong></h5>
+            <p>Buenos Aires es una de las provincias y estado más grande del estado de Argentina. En los Estados Unidos.
+              En Honolulú es la más sureña de entre las principales ciudades estadounidenses. Aunque el nombre Honolulú
+              refiere el área urbana de la costa sureste de la isla Oahu, la ciudad y condado de Honolulú han formado una 
+              ciudad-condado consolidada que cubre toda la ciudad (aproximadamente 600 km² de superficie).
+            </p>
+            <input class="botonConoce" type="button" value="Conoce más">
+          </div>
+        </div>
+      </section>
+
+      <!-- SECCION CONVIERTETE EN ORADOR -->
+      <section id="conviertete">
+        <div class="content-titulo">
+          <h6>conviertete en un orador</h6>
+          <h3><strong>ORADOR</strong></h3>
+        </div>
+        <h6>Anótate como orador para dar una charla. Cuéntanos de qué quieres charlar.</h6>
+        <div class="content-form">
+          <form class="form">
+            <div class="content-texto">
+              <input class="texto" type="text" placeholder="Nombre">
+              <input class="texto" type="text" placeholder="Apellido">
+            </div>
+            <textarea id="charla" type="text" placeholder="Sobre qué quieres hablar ?"></textarea>  
+            <h6>Recuerda incluir un título para tu charla.</h6>
+            <input class="boton-enviar" type="submit" value="Enviar">
+          </form>
+        </div>
+      </section>
+      </main>
+      <footer id="contacto">
+        <div class="content-listado">
+          <ul id="links-final">
+            <li><a href="#" class="seleccionado">Preguntas frecuentes</a></li>
+            <li><a href="#" class="seleccionado">contáctanos</a></li>
+            <li><a href="#" class="seleccionado">Prensa</a></li>
+            <li><a href="#" class="seleccionado">Conferencia</a></li>
+            <li><a href="#" class="seleccionado">Términos y condiciones</a></li>
+            <li><a href="#" class="seleccionado">Privacidad</a></li>
+            <li><a href="#" class="seleccionado">Estudiantes</a></li>
+          </ul>
+        </div>
+      </footer>
+    </body>
+</html>
