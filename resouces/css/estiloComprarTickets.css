@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&family=Montserrat:wght@200;400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#nav{
+    padding: 0;
+}
+
+#nav .container-fluid {
+    background-color: rgb(65, 65, 73, 1);
+    padding: 10px;
+}
+#nav .container-fluid .navbar-brand{
+    color: #fff;
+    padding-left: 35px;
+    font-size: 20px;
+}
+
+#nav .container-fluid .nav-link{
+    color: #fff;
+}
+
+#nav .collapse{
+    justify-content: center;
+}
+
+#content-card{
+    display: flex;
+    margin-top: 20px;
+    justify-content: center ;
+}
+
+#content-card .card1{
+    margin: 3px;
+    border:2px solid rgb(66, 170, 230);
+}
+#content-card .card2{
+    margin: 3px;
+    border: 2px solid rgb(184, 173, 23);
+}
+
+#content-titulos {
+    text-align: center;
+    margin-top: 4px;
+}
+
+.row{
+    height: 50%;
+}
+
+#total{
+    background-color: rgb(169, 225, 228);
+    padding-top: 8px;
+    padding-left: 8px;
+    margin-top:30px ;
+    border-radius: 5px ;
+}
+.content-button{
+    display: flex;
+    margin-top: 30px;
+}
+
+.content-button .form-control{
+    background-color:rgb(142, 212, 85);
+    
+}
+#contacto .content-listado ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding-top: 12px;
+    background-color: rgb(44, 84, 116);
+    height: 110px;
+    margin-top: 20px;
+    justify-content: space-evenly;
+}
+
+#contacto .content-listado ul li a {
+    text-decoration: none;
+    color: #fff;
+    margin:  0px 12px;
+    font-weight: 400;
+    transition: .5s;
+    text-align: center;
+}
+
+#contacto .content-listado ul li a:hover {
+    color: #63d0d8;
+}
+
